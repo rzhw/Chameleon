@@ -28,7 +28,7 @@
  */
 
 #import "UIAppearance.h"
-#import <UIKit/UIAppearanceProperty.h>
+#import "UIAppearanceProperty.h"
 
 @interface UIAppearanceProxy : NSObject {
     Class<UIAppearance> _targetClass;
